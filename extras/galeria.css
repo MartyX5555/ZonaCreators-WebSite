@@ -1,0 +1,31 @@
+p {
+
+  color: rgb(151, 151, 151);
+}
+
+h5 {
+
+  color: black
+}
+
+.image{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    border: 5px solid rgb(107, 86, 86);
+    display: inline-block;
+    padding: 1px;
+    border: 3px solid #3b3c41c4;
+    margin-top: -5px;
+    margin-right: 17px;
+    margin-left: 7px;
+  
+  }
+
+  #nombre_pagina {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    margin-left: -10px;
+  }
