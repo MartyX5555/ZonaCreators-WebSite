@@ -41,3 +41,8 @@ box-shadow: 1px 1px 20px #000000;
   margin-left: 7px;
 
 }
+.footcontainer {
+  width: 800px;
+  height: 400;
+  background-color: #a3473a;
+}
