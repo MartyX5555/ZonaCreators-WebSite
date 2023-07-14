@@ -68,7 +68,7 @@
   footer {
     background-color: #a3473a;
     color: #fff;
-    padding: 15px;
+    padding: 1px;
     text-align: center;
   }
   
@@ -94,3 +94,54 @@
     left: 10%;
   }
 
+
+  .container {
+    background-color: #4d4d4d;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text_main {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #1866b9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos adicionales para pantallas más grandes */
+  @media (min-width: 768px) {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .col {
+      flex: 1;
+    }
+  }
+
+
+
+  .titulo {
+    font-size: 28px;
+    color: #fff;
+    line-height: 1.5;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+  }
+
+
+  
