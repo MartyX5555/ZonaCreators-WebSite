@@ -33,4 +33,5 @@
     position: absolute;
     top: 29%;
     left: 10%;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
   }
