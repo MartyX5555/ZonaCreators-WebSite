@@ -1,88 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zona Networks</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css'>
-        <link rel="icon" href="materiales/logo-body.png" type="image/x-icon">
-        <link rel="stylesheet" href="extras/menu.css">
-        <link rel="stylesheet" href="extras/logo_giratorio.css">
-        <link rel="icon" href="img/ACCLogosin_gear.png" type="image/x-icon">
-        <link rel="stylesheet" href="extras/index.css">
-
-    </head>
-
-
-    
-    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Networks</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="icon" href="materiales/logo-body.png" type="image/x-icon">
+    <link rel="stylesheet" href="extras/logo_giratorio.css">
+    <link rel="icon" href="img/ACCLogosin_gear.png" type="image/x-icon">
+    <link rel="stylesheet" href="extras/index.css">
+    <link rel="stylesheet" href="extras/blur_index.css">
 
 
-    <!-- partial:index.partial.html -->
-    <body>
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="materiales/logo-body.png" alt="Imagen estática" width="67" height="67" class="static-image">
-                    <img src="materiales/logo-gear.png" alt="Imagen giratoria" width="67" height="67" class="rotating-image">
-                    <span href="index.html" id="zona-creators-link">Zona Creators</span>
-                </a>
+</head>
 
-            </div>
-
-            <ul class="nav flex-nowrap text-nowrap overflow-auto ms-auto" style="scrollbar-width: thin">
-                <li class="nav-item">
-                    <a class="nav-link text-white link-info" href="index.html"><strong>Inicio</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white link-info" href="contact.html"><strong>Quienes Somos</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white link-info" href="galeria.html"><strong>Galería</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white link-info" href="https://discord.gg/nB7YhrG5NV"><strong>Discord</strong></a>
-                </li>
-            </ul>
-        </header>
-    
-        <main>
-            <section id="fondo1" class="py-5" >
-                <div class="container">
-
-                    <div class="d-flex flex-column flex-column-reverse flex-md-row">
-                        <div class="col col-md-5 me-md-5">
-                            <h1  class="titulo"><strong>Un servidor de building dedicado.</strong></h1>
-                            <p class="text_main">
-                                Zona Creators es un lugar para esos que quieren construir vehículos o artefactos de forma avanzada, usando herramientas especializadas para ello. Albergamos addons de mecánica y programación como ACF/ACE o Wiremod + extras.
-                                
-                                <h5 class="text_main">Nuestra IP: 131.221.35.50:27078</h5> 
-                                <h5 class="text_main">No olvides descargar nuestro 
-                                <a class="btn btn-secondary" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2697188168" role="button">Addon Pack</a> </h5>
-                                
-                            </p>
+<body>
+    <header>
+        <div class="logo">
+            <nav class="navbar navbar-dark bg-orange fixed-top">
+                <div class="container-fluid">
+                    <a href="index.html">
+                        <img src="materiales/logo-body.png" alt="Imagen estática" width="55" height="55" class="static-image">
+                        <img src="materiales/logo-gear.png" alt="Imagen giratoria" width="55" height="55" class="rotating-image ms-auto">
+                        <span href="index.html" id="zona-creators-link" class="ms-auto">Zona Creators</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-
-                        <div class="col col-md-7">
-                            <div>
-                                <img id="imagen_principal" class="img-fluid rounded mb-4 mb-md-0" src="https://cdn.discordapp.com/attachments/979880282528292864/1015746640155508796/20220605213624_1.jpg" alt="" />                            <div class="d-flex text-muted pt-3">
-
-                                        </p>
-                                        </div>
-                                </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"><strong>Inicio</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"><strong>Quienes Somos</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="galeria.html"><strong>Galería</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://discord.gg/nB7YhrG5NV"><strong>Discord</strong></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </section>
+            </nav>
+        </div>
+    </header>
+
+    <section id="fondo1">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <div id="texto-contenedor">
+                        <h1 class="titulo"><strong>Un servidor de building dedicado.</strong></h1>
+                        <p class="text_main">
+                            Zona Creators es un lugar para aquellos que quieren construir vehículos o artefactos de forma avanzada, utilizando herramientas especializadas. Contamos con addons de mecánica y programación como ACF/ACE o Wiremod + extras.
+                        </p>
+                        <h5 class="text_main">Nuestra IP: 131.221.35.50:27078</h5>
+                        <h5 class="text_main">No olvides descargar nuestro <a class="btn btn-secondary" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2697188168" role="button">Addon Pack</a></h5>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img id="imagen_principal" class="img-fluid rounded mb-4 mb-md-0" src="extras/img_index/2.jpg" alt="Imagen principal" />
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <section id="fondo2">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <div id="texto-contenedor">
+                        <h1 class="titulo"><strong>Añade Texto.</strong></h1>
+                        <p class="text_main">
+                            ...
+                        </p>
+                        <h5 class="text_main">mas aqui</h5>
+                                            </div>
+                </div>
+                <div class="col-md-7">
+                    <img id="imagen_principal" class="img-fluid rounded mb-4 mb-md-0" src="extras/img_index/1.jpeg" alt="Imagen principal" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-        </main>
-        
-        <footer>
-            <p class="text_center_footer"><strong>©2023 Zona Networks</strong> - Todos los derechos reservados.<i class="fa-regular fa-registered"></i></p>                    
-        </footer>
 
-    </body>
+    <footer>
+        <p class="text_center_footer"><strong>©2023 Zona Networks</strong> - Todos los derechos reservados.<i class="fa-regular fa-registered"></i></p>
+    </footer>
+
+</body>
+
 </html>

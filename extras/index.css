@@ -1,69 +1,6 @@
-#imagen_principal {
-    width: 600%;
-    height: 400%;
-    box-shadow: 1px 1px 20px #000000;
-  }
-  
-  #imagenes {
-    border: #0d0d1b;
-  }
-  
-  .image{
-    margin: 0 auto;
-    width: 50px;
-    height: 50px;
-    border-radius: 20%;
-    border: 5px solid rgb(107, 86, 86);
-    display: inline-block;
-    padding: 1px;
-    border: 3px solid #3b3c41c4;
-    margin-top: -5px;
-    margin-right: 17px;
-    margin-left: 7px;
-  
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  
-  }
-  
-  header {
-    color: #fff;
-    padding: 25px;
-    background-color: #a3473a;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    display: flex;
-  }
-  
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex-shrink: 1;
-  }
-  
 
   
-  /*Contenido del main*/
-  main {
-    flex: 1;
-    padding: 20px;
-    background-color: #212121;
-  }
-  .text_main {
-    color: #ffffff;
-  }
-  
+
   /*Contenido del footer*/
   footer {
     background-color: #a3473a;
@@ -72,40 +9,12 @@
     text-align: center;
   }
   
-  .text_center_footer {
-    text-align: center;
-    color: #ffffff;
-  }
+
+  .navbar {
+    background-color: #a3473a;
+}
 
 
-
-
-  @font-face {
-    font-family: 'fuente';
-    src: url('fuente.ttf') format('truetype');
-  }
-  
-  #zona-creators-link {
-    font-family: 'fuente', Arial, sans-serif; /* Utiliza la fuente personalizada */
-    font-size: 150%;
-    color: #ffffff;
-    position: absolute;
-    top: 29%;
-    left: 10%;
-  }
-
-
-  .container {
-    background-color: #4d4d4d;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .text_main {
-    font-size: 18px;
-    line-height: 1.5;
-  }
   
   .btn {
     display: inline-block;
@@ -144,4 +53,50 @@
   }
 
 
+  .text_main {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+
+  #imagen_principal {
+    padding: 3px;
+    box-shadow: 1px 1px 20px #000000;
+    box-shadow: 1px 1px 10px #000000;
+  }
+
   
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+  
+  }
+  
+  header {
+    color: #fff;
+    padding: 30px;
+    background-color: #a3473a;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+  }
+  
+
+
+
+
+  .text_main {
+    color: #ffffff;
+  }
+
+
+
+

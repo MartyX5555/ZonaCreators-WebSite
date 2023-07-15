@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#fondo1 {
+    position: relative;
+    padding: 70px; /* Ajusta el espaciado según sea necesario */
+    color: white;
+    text-align: center;
+    min-height: 50vh; /* Ajusta el alto mínimo para que el contenido ocupe todo el viewport */
+}
+
+#fondo1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('blur_fondo/3.jpeg');
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+#fondo1 h1,
+#fondo1 p {
+    color: white;
+}
+
+#fondo2 {
+    position: relative;
+    padding: 70px; /* Ajusta el espaciado según sea necesario */
+    color: white;
+    text-align: center;
+    min-height: 60vh; /* Ajusta el alto mínimo para que el contenido ocupe todo el viewport */
+}
+
+
+
+#fondo2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('blur_fondo/3.jpg');
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+
+#fondo2 h1,
+#fondo1 p {
+    color: white;
+}
+
+
+
+#texto-contenedor {
+    background-color: rgba(50, 41, 41, 0.756); /* Ajusta el color y la opacidad del fondo */
+    padding: 5px; /* Ajusta el espaciado interno según sea necesario */
+}
+
+#imagen_principal {
+    max-width: 70%;
+    height: auto; /* Ajusta la altura automática para mantener la proporción de la imagen */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

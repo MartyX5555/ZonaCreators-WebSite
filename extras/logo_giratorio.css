@@ -1,13 +1,13 @@
 .static-image {
     position: absolute;
-    top: 13%;
+    top: 5%;
     left: 3%;
     z-index: 2;
 }
 
 .rotating-image {
     position: absolute;
-    top: 13%;
+    top: 5%;
     left: 3%; /* Cambia el valor de left para ajustar la posición en el centro */
     z-index: 1;
     animation: rotate 10s linear infinite;
@@ -28,10 +28,43 @@
   
   #zona-creators-link {
     font-family: 'fuente', Arial, sans-serif; /* Utiliza la fuente personalizada */
-    font-size: 150%;
+    font-size: 120%;
     color: #ffffff;
     position: absolute;
-    top: 29%;
-    left: 10%;
-    text-shadow: 1px 2px 4px rgb(0, 0, 0);
-  }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+@media (min-width: 668px) {
+    /* Estilos para pantallas más grandes, ajusta el valor de acuerdo a tus necesidades */
+    #zona-creators-link {
+        top: 27%;
+        left: 9%;
+        transform: none;
+    }
+}
+
+
+
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
